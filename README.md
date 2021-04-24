@@ -8,4 +8,4 @@
 
 |                                 CPP Check                                                                        |
 |------------------------------------------------------------------------------------------------------------------|
-|![image](https://user-images.githubusercontent.com/67336902/115953229-d8778e00-a507-11eb-923a-b9739090d1c1.png)   |
+|![image](https://user-images.githubusercontent.com/67336902/115953686-884dfb00-a50a-11eb-9335-2f7cd2bd8964.png)   |
