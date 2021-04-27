@@ -17,7 +17,7 @@ int main(void)
 
     void defining_ports();
     InitADC();
-    uint8_t temp = 0;
+    uint16_t temp = 0;
     while(1){
 
         if (SEATED){
