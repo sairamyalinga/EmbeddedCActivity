@@ -9,59 +9,33 @@
  * 
  */
 #include <avr/io.h>
+#include "Activity1.h"
+#include "Activity2.h"
 
 int main(void)
 {
 
-    DDRB |= (1<<PB0);/**
-     * @brief B0 is set as output
-     * 
-     */
-
-    DDRD &= ~(1<<PD0);/**
-     * @brief  D0 is set as Input
-     * 
-     */
-    PORTD |=(1<<PD0);/**
-     * @brief Enable PULL UP for input port
-     * 
-     */
-
-    DDRD &= ~(1<<PD3);/**
-     * @brief D3 is set as input
-     * 
-     */
-
-    PORTD |=(1<<PD3);/**
-     * @brief Enable PULL UP for input port
-     * 
-     */
+    void defining_ports();
+    InitADC();
+    uint8_t temp = 0;
     while(1){
 
-        if(!(PIND&(1<<PD0))){
-
-            if (!(PIND&(1<<PD3))){
+        if (SEATED){
                 /**
                  * @brief SEATED AND SWITCHED ON THE HEATER
-                 * 
+                 *
                  */
-                PORTB |=(1<<PB0);
+                PORTB |=(1<<PB3);
+                temp = ReadADC(0);
 
-            }
-            else{
-                /**
-                 * @brief SEATED BUT DIDN'T SWITCH ON THE HEATER
-                 * 
-                 */
-            PORTB &=~(1<<PB0);
         }
-        }
+
         else{
             /**
              * @brief NOT SEATED
-             * 
+             *
              */
-            PORTB &=~(1<<PB0);
+            PORTB &=~(1<<PB3);
         }
     }
 
