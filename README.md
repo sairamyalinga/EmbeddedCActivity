@@ -13,15 +13,10 @@
 
 ## Activity 1 Simulations
 
-|                                                    ON                                                                    |
+|                                                    Activity1                                                             |
 |--------------------------------------------------------------------------------------------------------------------------|
 |![Screenshot (25)](https://user-images.githubusercontent.com/67336902/115955985-e33a1f00-a517-11eb-90ac-b4d6cef0409d.png) |
 
-|                                                    OFF                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------|
-|![Screenshot (26)](https://user-images.githubusercontent.com/67336902/115955996-f3ea9500-a517-11eb-828c-68833844ad7c.png) |
-|![Screenshot (27)](https://user-images.githubusercontent.com/67336902/115956001-fcdb6680-a517-11eb-9ac3-bf20d094a7c8.png) |
-|![Screenshot (28)](https://user-images.githubusercontent.com/67336902/115956004-049b0b00-a518-11eb-86d3-9cefe5c76e0d.png) |
 
 
 
