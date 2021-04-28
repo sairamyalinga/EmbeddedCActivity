@@ -11,11 +11,18 @@
 |![image](https://user-images.githubusercontent.com/67336902/115953686-884dfb00-a50a-11eb-9335-2f7cd2bd8964.png)   |
 
 
-## Activity 1 Simulations
+## Activity  Simulations
+### Heater and Button Sensors
 
 |                                                    Activity1                                                             |
 |--------------------------------------------------------------------------------------------------------------------------|
 |![Screenshot (25)](https://user-images.githubusercontent.com/67336902/115955985-e33a1f00-a517-11eb-90ac-b4d6cef0409d.png) |
+
+### Potentiometer
+
+|                                                   Activity2                                                              |
+|--------------------------------------------------------------------------------------------------------------------------|
+|![Screenshot (30)](https://user-images.githubusercontent.com/67336902/116369082-995a7d00-a826-11eb-8af1-b899a14a8f6b.png) |
 
 
 
