@@ -1,5 +1,8 @@
 #include <avr/io.h>
 #include<util/delay.h>
+#include "Activity3.h"
+
+
 
 
 void PWM_PERIPHERALS(){
