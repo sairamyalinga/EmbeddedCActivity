@@ -22,7 +22,7 @@ int main(void)
     InitADC();
     pwmperipherals();
     InitUSART(103);
-    uint16_t temp = 0;
+    uint16_t temp;
     char temp_out;
     while(1){
 
