@@ -32,7 +32,7 @@ int main(void)
                  */
                 LED_ON;
                 temp = ReadADC(0);
-                temp_out = temp_output(temp);
+                temp_out = output(temp);
 
         }
 
