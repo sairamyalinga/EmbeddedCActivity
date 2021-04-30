@@ -12,7 +12,7 @@
 #include "Activity1.h"
 #include "Activity2.h"
 #include "Activity3.h"
-
+#include "Activity4.h"
 
 
 int main(void)
@@ -21,6 +21,7 @@ int main(void)
     defining_ports();
     InitADC();
     pwmperipherals();
+    InitUSART(103);
     uint16_t temp = 0;
     char temp_out;
     while(1){
@@ -33,6 +34,7 @@ int main(void)
                 LED_ON;
                 temp = ReadADC(0);
                 temp_out = output(temp);
+                Writechar(temp_out);
 
         }
 
