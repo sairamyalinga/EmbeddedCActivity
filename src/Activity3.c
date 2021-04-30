@@ -15,7 +15,7 @@ char output (uint16_t ADCvalue){
     
     char temperature;
 
-    if((ADCvalue>=0) && (ADCvalue<=200)){
+    if (ADCvalue<=200){
 
         OCR1A = 205; //20% 
         temperature = 20;
