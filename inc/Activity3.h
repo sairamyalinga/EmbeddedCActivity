@@ -3,5 +3,5 @@
 #define F_CPU 1000000UL
 
 void pwmperipherals();
-char temp_output (uint16_t ADCvalue)
+char output (uint16_t ADCvalue)
 #endif
