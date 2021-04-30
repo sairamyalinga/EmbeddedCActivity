@@ -1,7 +1,7 @@
 #include<avr/io.h>
 #include "Activity1.h"
 void defining_ports(void){    
-    DDRB |= (1<<PB3);/**
+    DDRB |= (1<<PB1);/**
      * @brief B0 is set as output
      *
      */
