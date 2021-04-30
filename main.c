@@ -13,6 +13,8 @@
 #include "Activity2.h"
 #include "Activity3.h"
 
+#define F_CPU 1000000UL
+
 int main(void)
 {
 
