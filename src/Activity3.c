@@ -11,7 +11,7 @@ void pwmperipherals(void){
     DDRB|=(1<<PB1);
 
 }
-char temp_output (uint16_t ADCvalue){
+char output (uint16_t ADCvalue){
     
     char temperature;
 
