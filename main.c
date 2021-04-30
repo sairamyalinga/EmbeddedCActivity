@@ -11,22 +11,26 @@
 #include <avr/io.h>
 #include "Activity1.h"
 #include "Activity2.h"
+#include "Activity3.h"
 
 int main(void)
 {
 
-    void defining_ports();
+    defining_ports();
     InitADC();
+    PWM_PERIPHERALS();
     uint16_t temp = 0;
+    char temp_out;
     while(1){
 
-        if (SEATED){
+        if (SEATED_N_HEATERON){
                 /**
                  * @brief SEATED AND SWITCHED ON THE HEATER
                  *
                  */
-                PORTB |=(1<<PB3);
+                LED_ON;
                 temp = ReadADC(0);
+                temp_out = temp_output(temp);
 
         }
 
@@ -35,7 +39,7 @@ int main(void)
              * @brief NOT SEATED
              *
              */
-            PORTB &=~(1<<PB3);
+            LED_OFF;
         }
     }
 
