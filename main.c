@@ -20,7 +20,7 @@ int main(void)
 
     defining_ports();
     InitADC();
-    PWM_PERIPHERALS();
+    pwmperipherals();
     uint16_t temp = 0;
     char temp_out;
     while(1){
